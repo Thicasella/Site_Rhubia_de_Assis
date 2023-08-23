@@ -1,60 +1,46 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div class= "background" >  
-        <header>
-            <div class="logo">
-                <i class="fa-solid fa-e"></i>
-            </div><!--logo-->
-            <div class="cabecalho-link">
-                        '<li>
-                            <a href="#"><strong>home</strong></a>
-                        </li>
-                        <li>
-                          
-                            <a href="#"><strong>Tecnologias e Projetos</strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong>serviços</strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong>Trabalho</strong></a>
-                        </li>
-                        <button><strong>meu contato</strong></button>
-                        <style>
-                            
-                            li{
-                                border: unset 1px blue;
-                                padding: auto;
-                            }
-                            .cargo{
-                                font-size: larger;
-                            }
-                        </style>
-            </div>
-        </header>
-        <div class="container-text">
-            <div class="text">
-                <h3>Olá, bem vindo.</h3>
-                <section class="imagemAdireita"> <img  class="imagem" src="https://media.licdn.com/dms/image/C4E03AQG-YnnGvhxSjA/profile-displayphoto-shrink_800_800/0/1656548142279?e=1682553600&v=beta&t=G6LdNeLNTuR0wjXqto2-2R6_JJq1MhhT1rW3s2hFbIo" alt="">
-                    </section>
-                    <h1>Eu sou <span><strong>Rhubia de assis</strong></span></h1>
-                <p class="cargo"><strong>Engenheira civil e projetista.</strong></p>
-                <div class="redes sociais">
-                    <a href="https://www.linkedin.com/in/rhubia-de-assis-divino-batista-da-silva-b53b17203/"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                    <button class="botao">sobre mim</button>
-            </div> 
-        </div>
+    <header class="HEAD">
+        <img src="" alt="">
+        <p>RHUBIA DIVINO</p>
+    </header>
+    <div >
+        <ul class="menu">
+            <li><strong>Quem somos</strong></li>
+            <li><strong>serviços</strong></li>
+            <li><strong>Portifolio</strong></li>
+            <li><strong>Contatos</strong></li>
+            <li><strong>Vlog</strong></li>
+            <li><strong>Ebook</strong></li>
+            <li><strong>Clientes</strong></li>
+        </ul>
+       <style>
+        .HEAD{
+            display: flex;
+        }
+      ul {
+            display: flex;
+        }
+        
+        .menu li {
+            margin-bottom: 10px; /* Ajuste o valor para definir o espaço desejado */
+            margin-right: auto;
+            box-shadow: 0px 0px 25px(13, 13, 144);
+            background-color: steelblue;
+            padding: 4px;
+
+        }
+        .menu li:last-child {
+            margin-right: 15px; /* Remove a margem do último item para evitar espaçamento extra */
+        }
+       </style>
     </div>
-    
+
 </body>
 </html>
