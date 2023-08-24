@@ -7,10 +7,12 @@
 </head>
 <body>
     <header class="HEAD">
-        <img src="" alt="">
-        <p>RHUBIA DIVINO</p>
+        <img src="SITE - DIVINO ADDVICE.png" alt="">
+    
+
+     
     </header>
-    <div >
+    <div class="Back" >
         <ul class="menu">
             <li><strong>Quem somos</strong></li>
             <li><strong>serviços</strong></li>
@@ -21,6 +23,10 @@
             <li><strong>Clientes</strong></li>
         </ul>
        <style>
+        .back{
+            background-color: aqua;
+           
+        }
         .HEAD{
             display: flex;
         }
@@ -41,6 +47,70 @@
         }
        </style>
     </div>
+   <section>
+    <div class="Container-slider">
+        <button id="prev-button"><img class="img-button" src="https://cdn2.iconfinder.com/data/icons/general-ui-outlined/16/left-256.png" alt=""></button> 
+        
+        <div class="container-imagens">
+            
+            <img src="IMG1.jpeg" alt="" class="slider on">
+            <img src="IMG2.jpeg" alt="" class="slider">
+            <img src="" alt="" class="slider">
+            <img src="" alt="" class="slider">
+            
+        </div>
+        <button id="next-button"><img class="img-button" src="https://cdn2.iconfinder.com/data/icons/general-ui-outlined/16/right-256.png" alt=""></button>
+    </div>
+   </section>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .Container-slider{
+            display: flex;
+            width: 100%;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+        }
+        .container-imagens{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 700px;
+        }
+        .slider{
+            opacity: 0;
+            transition: opacity .2s;
+            position: absolute;
+            width: 100%;
+            border-radius: 10px;
+          
+        }
+        .on{
+            opacity: 1;
+        }
+        .img-button{
+            width: 30px;
+            height: 30px;
+            border: none;
+            background: transparent;
+        }
+        #prev-button, #next-button{
+            width: 30px;
+            height: 30px;
+        }
+        #prev-button img, #next-button img{
+        width: 100%;
+        height: 100%;
+        }
+
+    </style>
 
 </body>
 </html>
