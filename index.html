@@ -2,115 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header class="HEAD">
-        <img src="SITE - DIVINO ADDVICE.png" alt="">
-    
-
-     
-    </header>
-    <div class="Back" >
-        <ul class="menu">
-            <li><strong>Quem somos</strong></li>
-            <li><strong>serviços</strong></li>
-            <li><strong>Portifolio</strong></li>
-            <li><strong>Contatos</strong></li>
-            <li><strong>Vlog</strong></li>
-            <li><strong>Ebook</strong></li>
-            <li><strong>Clientes</strong></li>
-        </ul>
-       <style>
-        .back{
-            background-color: aqua;
-           
-        }
-        .HEAD{
-            display: flex;
-        }
-      ul {
-            display: flex;
-        }
-        
-        .menu li {
-            margin-bottom: 10px; /* Ajuste o valor para definir o espaço desejado */
-            margin-right: auto;
-            box-shadow: 0px 0px 25px(13, 13, 144);
-            background-color: steelblue;
-            padding: 4px;
-
-        }
-        .menu li:last-child {
-            margin-right: 15px; /* Remove a margem do último item para evitar espaçamento extra */
-        }
-       </style>
-    </div>
-   <section>
-    <div class="Container-slider">
-        <button id="prev-button"><img class="img-button" src="https://cdn2.iconfinder.com/data/icons/general-ui-outlined/16/left-256.png" alt=""></button> 
-        
-        <div class="container-imagens">
-            
-            <img src="IMG1.jpeg" alt="" class="slider on">
-            <img src="IMG2.jpeg" alt="" class="slider">
-            <img src="" alt="" class="slider">
-            <img src="" alt="" class="slider">
-            
-        </div>
-        <button id="next-button"><img class="img-button" src="https://cdn2.iconfinder.com/data/icons/general-ui-outlined/16/right-256.png" alt=""></button>
-    </div>
-   </section>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divino advicce</title>
+   
     <style>
-        *{
+        body {
+            margin: 0; /* Removendo margens padrão do body */
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #7db4b5; /* Corrigindo para a nova cor de fundo */
+        }
+
+        .logo {
+            flex-shrink: 0; /* Evita que o logo seja comprimido */
+            background-color: #7db4b5;
+        
+        }
+        .logo img{
+            height: 145px;
+            width: 250px;
+        }
+        
+
+        .meiosdecontato {
+            list-style-type: none;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            text-align: right;
         }
-        .Container-slider{
-            display: flex;
-            width: 100%;
-            min-height: 100vh;
-            align-items: center;
-            justify-content: center;
-            gap: 1rem;
 
+        .icone img {
+            height: 25px;
+            width: 25px;
         }
-        .container-imagens{
-            position: relative;
+      
+       
+        .menu {
             display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 700px;
+            list-style-type: none;
+            margin: 0;
+          
+            text-align: right;
+            
         }
-        .slider{
-            opacity: 0;
-            transition: opacity .2s;
-            position: absolute;
-            width: 100%;
-            border-radius: 10px;
+
+        .menu li {
+            margin-right: 20px; /* Ajuste a margem conforme necessário */
           
         }
-        .on{
-            opacity: 1;
-        }
-        .img-button{
-            width: 30px;
-            height: 30px;
-            border: none;
-            background: transparent;
-        }
-        #prev-button, #next-button{
-            width: 30px;
-            height: 30px;
-        }
-        #prev-button img, #next-button img{
-        width: 100%;
-        height: 100%;
-        }
-
     </style>
+</head>
+<body>
+   <header>
+    
+        <div class="logo">
+            <img src="Destaquem do Instagram .svg" alt="logo da empresa">
+        </div>
+        <ul class="meiosdecontato">
+            <li>divino.addvice@gmail.com</li>
+            <li>(11)99132 7254</li>
+            <div class="icone">
+                <img src="icone_insta.png" alt="ícone do Instagram">
+                <img src="icone_linkdin.png" alt="ícone do LinkedIn">
+                <img src="icone_email.png" alt="ícone do YouTube">
+                <img src="icone_face.png" alt="ícone do Facebook">
+                <img src="icone_youtube.png" alt="ícone do E-mail">
+            </div>
+        </ul>
+       
+   </header>
 
+   <div class="menu">
+
+    <li>home</li>
+    <li>serviços</li>
+    <li>cursos</li>
+    <li>Fale conosco</li>
+
+
+<p>
+
+</p>
+
+   </div>
 </body>
 </html>
