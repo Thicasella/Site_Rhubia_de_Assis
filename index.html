@@ -74,7 +74,10 @@
             text-align: right;
             height: 100vh; /* Altura da tela inteira */
             background-size: 100% 100%;
-            
+            clip: rect(10px, 90px, 40px, 10px); /* top, right, bottom, left */
+
+          
+           
             
         }
 
@@ -89,6 +92,9 @@
             color: aliceblue;
             text-align: center;
             font-size: large;
+        }
+        .classe-menu{
+            background-color: #092b5a;
         }
     </style>
 </head>
@@ -129,9 +135,76 @@
                 </div>
 </section>
 <section class="valores">
-<p><strong>Bem-vindo à DIVINO ADDVICE, sua parceira especializada em Regularização  & Legalização de imóveis e Vitórias/Laudos Técnicas</strong></p>
+<p class="p"><strong>Bem-vindo à DIVINO ADDVICE, sua parceira especializada em Regularização  & Legalização de imóveis e Vitórias/Laudos Técnicas</strong></p>
 
+<ul class="menu_2">
+    <li><img src="Imagem_lirvors2.png" alt="imagem de livros">
+          <ul>Nosso compromisso é simplificar e agilizar todo o processo burocrático.</ul>
+    </li>
+    <li><img src="icone_pessoas.png" alt="imagem de livros">
+        <ul>Contamos uma equipe dedicada e experiente, viabilizando um processo completo.</ul>
+    </li>
+    <li><img src="icone_mao.png" alt="imagem de livros">
+        <ul>Estamos aqui para oferecer qualidade nas  soluções eficientes e personalizadas.</ul>
+
+    </li>
+    <li><img src="icone_tri.png" alt="imagem de livros">
+        <ul>Através da responsabilidade social e ambiental, buscamos o melhor custo e benefício.</ul>
+
+    </li>
+    <li><img src="icone_livros2.png" alt="imagem de livros">
+        <ul>Além de tudo, contamos com uma pagina só com cursos e e-book no ramo da construção civil.</ul>
+
+    </li>
+</ul>
 </section>
+    <style>
+        .menu_2{
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+            font-size: 25px;
+            text-align: center;
+            margin-right: 15px;
+        }
+        .menu_2 img{
+            width: 150px;
+            height: 75px;
+            background-color: #092b5a;
+            padding: 20px;
+            transform: scale(1.4); /* Ajuste o valor conforme necessário para aumentar ou diminuir */
+
+            margin-bottom: 15px ;
+        }
+        .menu_2 ul{
+            margin-right: 25px;
+        }
+        .p{
+        font-size: 25px;
+       margin-bottom: 75px;
+       margin-top: 25px;
+        }
+        footer{
+            background-color: #092b5a;
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 28px;
+            font-size: larger;
+            margin-bottom: 0;
+            color: blanchedalmond;
+            margin-top: 2rem;
+            padding: 1rem;
+        }
+    </style>
+
+
+<footer>
+<p><strong>Horário de atendimento: Seg. à Sex. das 9h as 18h <br>
+    Localização: São Paulo - SP <br>
+    Atendemos: São Paulo e Santa Catarina</strong></p>
+
+</footer>
+
 </head>
 </body>
 </html>
