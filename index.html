@@ -8,7 +8,9 @@
     <style>
         body {
             margin: 0; /* Removendo margens padrão do body */
+            background-color: #092b5a;
         }
+
 
         header {
             display: flex;
@@ -74,7 +76,10 @@
             text-align: right;
             height: 100vh; /* Altura da tela inteira */
             background-size: 100% 100%;
-            clip: rect(10px, 90px, 40px, 10px); /* top, right, bottom, left */
+             clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 90%);
+            width: 100%;
+            
+            
 
           
            
@@ -195,8 +200,131 @@
             margin-top: 2rem;
             padding: 1rem;
         }
+        h1{
+            text-align: center;
+            font-size: 25px;
+            color: aliceblue;
+            margin-top: 75px;
+        }
+        .lista_de_servicos{
+            column-count: 3;
+            column-gap: 5px;
+            text-align: center;
+            column-width: 5px; /* Largura de cada coluna, ajuste conforme necessário */
+             column-gap:10px;
+             border-radius: 50px;
+             color: aliceblue;
+             border-width: 2px 5px 2px 2px;
+             font-size: 20px;
+            
+             list-style: none;
+             display: flex;
+             gap: 0px;
+             text-align: center;
+             
+         
+            
+        }
+        .lista_de_servicos {
+    column-count: 3;
+    column-gap: 5px;
+    text-align: center;
+    column-width: 5px;
+    column-gap: 10px;
+    border-radius: 50px;
+    color: aliceblue;
+    border-width: 2px 5px 2px 2px;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    gap: 0px;
+    text-align: center;  
+    justify-content: center; /* Centraliza as divs horizontalmente */
+}
+
+.lista_de_servicos ul {
+    border-style: groove;
+    border-color:  #F1AE2B;
+    border-radius: 70px;
+    height: 35px;
+    width: 465px;
+    text-align: center;
+    margin-top: 2px;
+    padding: auto;
+    
+   
+}
+
+.lista_de_servicos img {
+    width: 75px;
+    height: 50px;
+}
+
+.imagem_final {
+    width: 100%;
+    display: block;
+    height: 300px;
+}
+.apresentacao{
+    background-image: url("Minha\ Imagem.svg");
+    position: relative;
+            
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px; /* Ajuste a altura conforme necessário */
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            color: #092b5a;
+            text-align: right;
+            height: 100vh; /* Altura da tela inteira */
+            background-size: 100% 100%;
+             clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 90%);
+            width: 100%;
+            
+}
+
+  
+        
     </style>
 
+  <section>  <img class="imagem_final" src="Final_da_imagem_inicial_prédios.svg" alt="imagem Final_da_imagem_inicial_prédios">
+  </section>
+    
+    <h1>Benefícios que você ganha ao contratar a DIVINO ADDVICE:</h1>
+
+
+    <section class="lista_de_servicos">
+
+              <div>
+                <ul>Lucro de até 30% a mais na venda do seu imóvel.</ul>
+                <ul>Mudança tranquila sem supressas técnicas.</ul>
+                <ul>Evita disputas legais, com a sua propriedade.</ul>
+                <ul>Possibilidades de redução do valor de IPTU.</ul>
+                <ul>Assessoria técnica durante todo o processo</ul>
+              </div>
+
+       <div>
+        <li><img src="Benefício_1.svg" alt=""></li>
+        <li><img src="Benefício_2.svg" alt=""></li>
+        <li><img src="Benefício_3.svg" alt=""></li>
+        <li><img src="Benefício_4.svg" alt=""></li>
+        <li><img src="Benefício_5.svg" alt=""></li>
+       
+       
+       </div>
+            <div>  
+                <ul>Acesso a financiamentos.</ul>
+                <ul>Garantia técnica da qualidade da construção.</ul>
+                <ul>Resolução imediata dos problemas ocultos.</ul>
+                <ul>Evita/ diminui multa da Receita Federal.</ul>
+                <ul>Documentação com valor jurídico.</ul>
+</div>
+</section>
+<br>
+<section class="apresentacao">
+
+</section>
 
 <footer>
 <p><strong>Horário de atendimento: Seg. à Sex. das 9h as 18h <br>
