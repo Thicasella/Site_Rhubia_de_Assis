@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divino advicce</title>
+   
+    <style>
+        body {
+            margin: 0; /* Removendo margens padrão do body */
+            background-color: #7db4b5;
+        }
+
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #7db4b5; /* Corrigindo para a nova cor de fundo */
+        }
+
+        .logo {
+      /* Evita que o logo seja comprimido */
+            background-color: #7db4b5;
+        }
+        .logo img{
+            height: 145px;
+            width: 250px;
+        }
+
+        .meiosdecontato {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            margin-left: 10px;
+            margin-right: 25px;
+            margin-top: 45px;
+        }
+
+        .icone img {
+            height: 25px;
+            width: 25px;
+        }
+
+        .menu {
+            background-color: #092b5a;
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: right; /* Centraliza os itens horizontalmente */
+        }
+
+
+        .menu li {
+            margin-right: 35px;
+            margin-left: 45px; /* Ajuste a margem conforme necessário */
+            margin-top: 10px;
+            font-size: large;
+            color: antiquewhite;
+            margin-bottom: 10px;
+           
+        }
+        .central {
+            position: relative;
+            background-image: url("imagem_de_fundo.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px; /* Ajuste a altura conforme necessário */
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            color: #092b5a;
+            text-align: right;
+            height: 100vh; /* Altura da tela inteira */
+            background-size: 100% 100%;
+             clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 90%);
+            width: 100%;
+            
+            
+
+          
+           
+            
+        }
+
+        .texto-sobre-imagem {
+            margin-right: 25px;
+            color: black;
+            z-index: 1; /* Para garantir que o texto fique acima da imagem de fundo */
+            
+        }
+        .valores{
+            background-color: #092b5a;
+            color: aliceblue;
+            text-align: center;
+            font-size: large;
+        }
+        .classe-menu{
+            background-color: #092b5a;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <header>
+            <div class="logo">
+                <img src="Destaquem do Instagram .svg" alt="logo da empresa">
+            </div>
+
+            <ul class="meiosdecontato">
+                <li><strong>divino.advice@gmail.com</strong></li>
+                <li><strong>(11) 99132 7254</strong></li>
+                <div class="icone">
+                    <img src="icone_insta.png" alt="ícone do Instagram">
+                    <img src="icone_linkdin.png" alt="ícone do LinkedIn">
+                    <img src="icone_email.png" alt="ícone do YouTube">
+                    <img src="icone_face.png" alt="ícone do Facebook">
+                    <img src="icone_youtube.png" alt="ícone do E-mail">
+                </div>
+            </ul>
+        </header>
+
+        <section class="classe-menu">
+            <div class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Serviços.html">Serviços</a></li>
+                <li><a href="link-dos-seus-cursos">Cursos</a></li>
+                <li><a href="link-para-fale-conosco">Fale conosco</a></li>
+           
+            </div>
+        </section>
+        <section>
+            <h1 class="h1_servicos">Encontre aqui o processo necessário para a valorização do seu patrimônio</h1>
+            <div class="colored-line"></div>
+
+            <div class="lista_servicos">
+                <ul>
+                    <img src="usucapiao_img.png" alt="">
+                    <img src="prefeitura2.png" alt="">
+                    <img src="uniao_img.png" alt="">
+                    <img src="receita_img.png" alt="">
+                </ul>
+            </div>
+
+
+<style>
+                            .lista_servicos ul {
+                            list-style-type: none; /* Remove os marcadores de lista padrão */
+                            padding: 0;
+                            text-align: center; /* Centraliza o texto dentro da lista */
+                            justify-content: space-between;
+                        }
+                            .lista_servicos img{
+                                height: 350px;
+                                display: inline-block; /* Define as imagens como elementos de bloco */
+                                width: auto; /* Mantém a proporção da imagem */
+                            }
+
+
+                    .h1_servicos{
+                        background-color: #7db4b5;
+                        text-align: center;
+                        color: darkmagenta;
+                        font-size: 35px;
+                    }
+                    .colored-line {
+                    border: none; /* Remove a borda padrão da hr */
+                    height: 2px; /* Define a altura da linha */
+                    background-color:darkmagenta ; /* Define a cor de fundo da linha */
+                    margin: 20px 0; /* Define margens superior e inferior para espaçamento */
+                    margin-bottom: 30px;
+                }
+footer{
+            background-color: #092b5a;
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 28px;
+            font-size: larger;
+            margin-bottom: 0;
+            color: blanchedalmond;
+            margin-top: 2rem;
+            padding: 1rem;
+        }
+        .sevicos_dois{
+            background-color: #092b5a;
+            align-items: center;
+            text-align: center;
+        }
+        .Botão{
+            background-color: #680148;
+            font-size: 35px;
+            border-radius: 25px;
+            color: white;
+            align-items: center;
+            text-align: center;
+        }
+        .lista_servicos img{
+                                height: 300px;
+                                display: inline-block; /* Define as imagens como elementos de bloco */
+                                width: auto; /* Mantém a proporção da imagem */
+                                display: flexbox;
+                                margin-bottom: 25px;
+        }
+</style>
+        </section>
+
+       
+
+        <section class="sevicos_dois">
+
+            <button class="Botão">Solicite o seu orçamento</button>
+
+            <div class="lista_servicos">
+                <ul>
+                    <img src="vistoria.png" alt="">
+                    <img src="projeto_cp.png" alt="">
+                    <img src="reforma.png" alt="">
+                </ul>
+            </div>
+        </section>
+
+
+        <footer>
+            <p><strong>Horário de atendimento: Seg. à Sex. das 9h as 18h <br>
+                Localização: São Paulo - SP <br>
+                Atendemos: São Paulo e Santa Catarina</strong></p>
+            
+            </footer>
+            
+            </head>
+            </body>
+            </html>
