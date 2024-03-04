@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0; /* Removendo margens padrão do body */
+            background-color: #092b5a;
+        }
+
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #7db4b5; /* Corrigindo para a nova cor de fundo */
+        }
+
+        .logo {
+      /* Evita que o logo seja comprimido */
+            background-color: #7db4b5;
+        }
+        .logo img{
+            height: 145px;
+            width: 250px;
+        }
+
+        .meiosdecontato {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            margin-left: 10px;
+            margin-right: 25px;
+            margin-top: 45px;
+            font-size: 25px;
+        }
+
+        .icone img {
+            height: 25px;
+            width: 25px;
+        }
+
+        .menu {
+            background-color: #092b5a;
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: right; /* Centraliza os itens horizontalmente */
+            color: white;
+         
+        }
+
+
+        .menu li {
+            margin-right: 35px;
+            margin-left: 45px; /* Ajuste a margem conforme necessário */
+            margin-top: 10px;
+            font-size: large;
+            color: antiquewhite;
+            margin-bottom: 10px;
+            font-size: large;
+            transition: background-color 0.3s; /* Adiciona uma transição suave */
+           
+        }
+        .central {
+            position: relative;
+            background-image: url("imagem_de_fundo.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px; /* Ajuste a altura conforme necessário */
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            color: #092b5a;
+            text-align: right;
+            height: 100vh; /* Altura da tela inteira */
+            background-size: 100% 100%;
+             clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 90%);
+            width: 100%;
+            
+        }
+
+        .texto-sobre-imagem {
+            margin-right: 25px;
+            color: black;
+            z-index: 1; /* Para garantir que o texto fique acima da imagem de fundo */
+            
+        }
+        .valores{
+            background-color: #092b5a;
+            color: aliceblue;
+            text-align: center;
+            font-size: large;
+        }
+        .classe-menu{
+            background-color: #092b5a;
+            color: white;
+            transition: background-color 0.3s; /* Adiciona uma transição suave */
+
+        }
+        .fale_conosco {
+    background-image: url(BACKGROUND_FALECONOSCO.png);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente o conteúdo da seção */
+    color: #092b5a;
+    text-align: center;
+    height: 100vh; /* Altura da tela inteira */
+    background-size: 100% 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 90%);
+    width: 100%;
+}
+
+/* Adicione estilos para centralizar divs filhas */
+.fale_conosco div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+           footer{
+            background-color: #092b5a;
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 28px;
+            font-size: larger;
+            margin-bottom: 0;
+            color: blanchedalmond;
+            margin-top: 2rem;
+            padding: 1rem;
+        }
+        .email{
+            background-color: #092b5a;
+            height: 350px;
+            width: 350px;
+            text-align: center;
+            align-items: center;
+            border-radius: 15px;
+          
+        }
+        .whats{
+            background-color: #092b5a;
+            height:125px ;
+            width: 300px;
+            align-items: center;
+            border-radius: 15px;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <header>
+            <div class="logo">
+                <img src="Destaquem do Instagram .svg" alt="logo da empresa">
+            </div>
+
+            <ul class="meiosdecontato">
+                <li><strong>divino.advice@gmail.com</strong></li>
+                <li><strong>(11) 99132 7254</strong></li>
+                <div class="icone">
+                    <img src="icone_insta.png" alt="ícone do Instagram">
+                    <img src="icone_linkdin.png" alt="ícone do LinkedIn">
+                    <img src="icone_email.png" alt="ícone do YouTube">
+                    <img src="icone_face.png" alt="ícone do Facebook">
+                    <img src="icone_youtube.png" alt="ícone do E-mail">
+                </div>
+            </ul>
+        </header>
+
+        <section class="classe-menu">
+            <div class="menu">
+               
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="Serviços.html"><strong>Serviços</strong></a></li>
+                <li><a href="link-dos-seus-cursos"><strong>Cursos</strong></a></li>
+                <li><a href="FaleConosco.html"><strong>Fale conosco</strong></a></li>
+           
+            </div>
+
+            <section class="fale_conosco">
+
+                <div class="email">
+                    <input type="text">
+                    <input type="number" name="" id="">
+                    <input type="email">
+                </div>
+              
+                <div class="whats">
+
+                </div>
+
+
+            </section>
+
+            <footer>
+                <p><strong>Horário de atendimento: Seg. à Sex. das 9h as 18h <br>
+                    Localização: São Paulo - SP <br>
+                    Atendemos: São Paulo e Santa Catarina</strong></p>
+                
+                </footer>
+</body>
+</html>
