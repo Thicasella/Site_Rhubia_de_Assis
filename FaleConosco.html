@@ -120,15 +120,16 @@
     background-size: 100% 100%;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 90%);
     width: 100%;
+    margin-bottom: 35px;
+    padding: 5;
 }
 
-/* Adicione estilos para centralizar divs filhas */
-.fale_conosco div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+.fale_conosco > div {
+    margin: 0 10px; /* Adiciona uma margem horizontal entre as divs */
 }
+
+
+
 
 
            footer{
@@ -157,7 +158,13 @@
             width: 300px;
             align-items: center;
             border-radius: 15px;
-           
+            display: flexbox;
+           color: antiquewhite;
+           color: white; /* Mude a cor para branco */
+        }
+        .email h1,h2,h3{
+            color: aliceblue;
+
         }
     </style>
 </head>
@@ -195,13 +202,19 @@
             <section class="fale_conosco">
 
                 <div class="email">
+                    <h1>Nome</h1>
                     <input type="text">
+                    <h2>Telefone</h2>
                     <input type="number" name="" id="">
+
+                    <h3>email</h3>
                     <input type="email">
                 </div>
               
                 <div class="whats">
 
+                    <i class="fa-brands fa-whatsapp"></i>
+                
                 </div>
 
 
