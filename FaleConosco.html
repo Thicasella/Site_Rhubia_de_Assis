@@ -145,15 +145,15 @@
         }
         .email{
             background-color: #092b5a;
-            height: 350px;
-            width: 350px;
+            height: 550px;
+            width: 650px;
             text-align: center;
-            align-items: center;
+       
             border-radius: 15px;
           
         }
         .whats{
-            background-color: #092b5a;
+            background-color: blueviolet;
             height: 350px;
             width: 350px;
             align-items: center;
@@ -166,13 +166,15 @@
         .whats svg{
             height: 200px;
             align-items: center;
+            color-scheme: white;
             
         }
         .whats button{
-            height: 200px;
+            height: 220px;
+            width: 220px;
             align-items: center;
-            background-color: #092b5a;
-            border-radius: 50%;
+            background-color: blueviolet;
+            border-radius: 25%;
             
         }
      
@@ -181,6 +183,30 @@
             color: aliceblue;
             font-size: large;
 
+
+        }
+        .email input{
+         text-align: left;
+         width: 350px;
+       border-radius: 5px;
+
+        }
+        .botao_fale_conosco{
+            font-size: large;
+            color: white;
+            background-color: blueviolet;
+            margin-top: 15px;
+        }
+        .descricao{
+            height: 120px;
+        }
+        .menu li a {
+            color: white; /* Cor padrão do texto */
+            text-decoration: none; /* Remover sublinhado padrão */
+            transition: color 0.3s; /* Transição suave de cor */
+        }
+        .menu li a:hover {
+            color: blue; /* Cor do texto ao passar o mouse */
         }
     </style>
 </head>
@@ -222,9 +248,13 @@
                     <input type="text">
                     <h2>Telefone</h2>
                     <input type="number" name="" id="">
-
                     <h3>email</h3>
                     <input type="email">
+                    <h3>motivo do contato</h3>
+                    <input class="descricao" type="text">
+                    <br>
+
+                    <button class="botao_fale_conosco"><strong>enviar email</strong></button>
                 </div>
               
                 <div class="whats">
